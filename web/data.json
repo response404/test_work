@@ -1,0 +1,68 @@
+{
+    "type": "container",
+    "payload": {},
+    "children": [
+        {
+            "type": "image",
+            "payload": {
+                "link": null,
+                "image": {
+                    "id": 1,
+                    "meta": {
+                        "format": "JPG",
+                        "width": 300,
+                        "height": 200,
+                        "filesize": 488
+                    },
+                    "url": "https://sex-opt.ru/test.png"
+                }
+            },
+            "settings": {
+                "zoom": false
+            }
+        },
+        {
+            "type": "text",
+            "payload": {
+                "text": "Sample Text"
+            },
+            "settings": {
+                "fontSize": "medium",
+                "textAlign": "center"
+            }
+        },
+        {
+            "type": "block",
+            "payload": {},
+            "children": [
+                {
+                    "type": "container",
+                    "payload": {},
+                    "children": [
+                        {
+                            "type": "button",
+                            "payload": {
+                                "link": {
+                                    "type": "url",
+                                    "payload": "https://google.com/"
+                                },
+                                "text": "Sample Button"
+                            },
+                            "settings": {
+                                "size": "medium",
+                                "style": "custom",
+                                "textColor": "#FFFFFF",
+                                "backgroundColor": "#FF0000"
+                            }
+                        }
+                    ],
+                    "settings": {}
+                }
+            ],
+            "settings": {
+                "textAlign": "center"
+            }
+        }
+    ],
+    "settings": {}
+}
