@@ -1,8 +1,6 @@
 <?php
 
-
 namespace components;
-
 
 class Application
 {
@@ -13,16 +11,11 @@ class Application
     public function __construct()
     {
         $this->fileForParsing = DIR . '/data.json';
-        $this->fileRenderer = self::initRenderer();
+        $this->fileRenderer = new BasicRenderer();
     }
 
     public function run()
     {
         $this->fileRenderer->render($this->fileForParsing);
-    }
-
-    private static function initRenderer()
-    {
-        return new BasicRenderer();
     }
 }

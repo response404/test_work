@@ -1,12 +1,9 @@
 <?php
 
-
 namespace components;
-
 
 class BasicRenderer
 {
-
     public function render($sourceFile)
     {
         /**
